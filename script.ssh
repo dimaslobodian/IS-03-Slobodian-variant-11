@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Input first number:"
+read num1;
+echo "Input second number:"
+read num2;
+summa=$((num1+num2))
+
+echo "$num1 + $num2 = $summa"
